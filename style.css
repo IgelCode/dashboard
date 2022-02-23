@@ -2,8 +2,6 @@
   padding: 0;
   margin: 0;
 }
-body {
-}
 .content {
   height: 100vh;
   display: grid;
@@ -169,8 +167,6 @@ input {
   flex-direction: column;
   gap: 5px;
 }
-.trending {
-}
 .trendingwindow {
   background-color: #fefeff;
   border-radius: 5px;
@@ -180,7 +176,7 @@ input {
   flex-direction: column;
 }
 .announcewrapper {
-  padding: 30px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -212,17 +208,16 @@ hr {
 
   padding: 10px;
 }
-.announcements {
-}
-.announcementcontent {
-}
 .trending {
   padding-top: 40px;
+}
+.trendingtitle {
+  padding-bottom: 5px;
 }
 .trendingcontent {
   display: grid;
   grid-template-columns: 1fr 8fr;
-  padding: 25px;
+  padding: 15px;
   gap: 10px;
   align-items: center;
 }
