@@ -149,6 +149,7 @@ input {
   border-left-style: solid;
   border-color: rgb(230, 190, 10);
   border-width: 8px;
+  padding-left: 20px;
 }
 .windowicons {
   display: flex;
