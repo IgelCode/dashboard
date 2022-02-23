@@ -170,7 +170,7 @@ input {
 .trendingwindow {
   background-color: #fefeff;
   border-radius: 5px;
-
+  padding: 13px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -198,7 +198,6 @@ hr {
   font-weight: bold;
 }
 .wrapperwindow {
-  padding: 15px;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -217,7 +216,7 @@ hr {
 .trendingcontent {
   display: grid;
   grid-template-columns: 1fr 8fr;
-  padding: 15px;
+
   gap: 10px;
   align-items: center;
 }
